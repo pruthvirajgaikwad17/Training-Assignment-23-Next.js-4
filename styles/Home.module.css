@@ -1,0 +1,92 @@
+.all {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/background.png);
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.profilebox {
+  background-color: rgba(53, 156, 193, 0.3);
+  text-align: center;
+  padding: 40px 90px;
+  color: #fff;
+  position: relative;
+  border-radius: 20px;
+}
+
+.menuIcon {
+  width: 25px;
+  position: absolute;
+  left: 40px;
+  top: 40px;
+}
+
+.settingIcon {
+  width: 25px;
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+
+.profileIcon {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 6px;
+  margin-top: 40px;
+}
+
+.profileBottom {
+  background: #fff;
+  color: #999;
+  padding: 20px 0;
+  margin-right: -90px;
+  margin-left: -90px;
+  margin-bottom: -40px;
+  border-radius: 20px;
+  margin-top: -10px;
+}
+
+.profileBottom img {
+  width: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.profilebox button {
+  background: #fff;
+  color: #ff574a;
+  border: none;
+  outline: none;
+  box-shadow: 0 5px 10px rgba(224, 67, 54, 0.5);
+  padding: 15px 60px;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-bottom: -50px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.profilebox h3 {
+  font-size: 22px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.socialMedia img {
+  width: 20px;
+  margin: 10px 10px;
+  cursor: pointer;
+}
